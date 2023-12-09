@@ -6,8 +6,12 @@ See `Dockerfile` for more details
 
 **The app is maintained approximately once per year so may contain vulnerbilities.**
 
-commands used:
-//build the docker image of existing app when inside that repo:
-docker image build -t nigel/psweb-image .
-//  see the build image
- docker image ls nigel/psweb-image
+commands used:<br>
+//build the docker image of existing app when inside that repo:<br>
+docker image build -t aashwin200/psweb-image .<br>
+//  see the build image<br>
+docker image ls aashwinbhushal200/aashwin200<br>
+//tag it<br>
+docker tag aashwin200/psweb-image:latest aashwinbhushal200/aashwin200:myfirstimage9thDec<br>
+//push it<br>
+Docker push aashwinbhushal200/aashwin200:myfirstimage9thDec<br>
